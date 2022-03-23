@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #0d1117;
+}
+.container{
+  position: relative;
+  width: 70%;
+  height: 70vh;
+  left: 15%;
+  top: 110px;
+}
+.wifi1{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #ccc;
+  border-radius: 50%;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.wifi2{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 50px solid transparent;
+  border-top: 50px solid #0d1117;
+  border-radius: 50%;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: wifi2 3s ease infinite;
+}
+.wifi3{
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border: 50px solid transparent;
+  border-top: 50px solid #0d1117;
+  border-radius: 50%;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: wifi3 3s ease-in-out infinite;
+}
+.wifi4{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border: 50px solid transparent;
+  border-top: 50px solid #0d1117;
+  border-radius: 50%;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: wifi4 3s ease-in infinite;
+}
+
+@keyframes wifi2{
+  to{
+    border-top: 50px solid #ccc;
+  }
+} 
+@keyframes wifi3{
+  to{
+    border-top: 50px solid #ccc;
+  }
+} 
+@keyframes wifi4{
+  to{
+    border-top: 50px solid #ccc;
+  }
+} 
